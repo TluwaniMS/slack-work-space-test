@@ -8,12 +8,14 @@ dotenv.config();
 
 const token = process.env.SLACK_BOT_TOKEN;
 const conversationId = process.env.CONVERSATION_ID;
+const userId = process.env.PERSONAL_ID;
 
 const client = new WebClient(token, {
   logLevel: LogLevel.DEBUG
 });
 
 (async () => {
-  // await sendMessageToChannel(client, conversationId, HelloWorldMessage);
+  // await sendMessageToChannel(client, conversationId, HelloWorldMessage);|
+  // await sendMessageToChannel(client, userId, HelloWorldMessage);
   // await retrieveChannelMembers(client);
 })();
