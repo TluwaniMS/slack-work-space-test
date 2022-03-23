@@ -3,6 +3,8 @@
 # About Repository:
 This is a basic nodejs project that I created to learn how to use the slack-web API.
 
+Please follow the following [link](https://api.slack.com/apps?new_app=1) for a guide on how to create a slack app.
+
 # Software(s) required:
 * Latest stable version of Node Package Manager
 
